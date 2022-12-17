@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title></title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- <link href="css/style.css" rel="stylesheet"> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>        
+
+        /* header styling */
+        .header {
+          background-color: lightblue;
+          width: 99vw;
+          text-align: center;
+          font-size: x-large;
+          font-family: sans-serif;
+          text-decoration: underline;
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+
+        /* details styling */
+        .details {
+          background-color: burlywood;
+          display: flex;
+          height: 80vh;
+          width: 99vw;
+        }
+        .col-1 {
+          background-color: lightpink;
+          height: 80vh;
+          align-items: flex-start;
+        }
+        .col-2 {
+          background-color: lemonchiffon;
+          height: 80vh;
+          flex: 1;
+        }
+        .col-3 {
+          background-color: cyan;
+          height: 80vh;
+          width: 15vw;
+        }
+
+        /* advertisement styling */
+        .adv {
+          height: 550px;
+          width: 230px;
+        }
+
+        /* footer styling */
+        .footer {
+          background-color: lightseagreen;
+          height: 6vh;
+          width: 99vw;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          padding-top: 10px;
+        }        
+        .image {
+          margin: 6px;
+          background-color: lightskyblue;
+          border: 2px solid lightskyblue;
+          height: 24px;
+          width: 12px;
+          flex: 0 0 50px;
+        }
+
+        /* List styling */
+        ul {
+          list-style: none;
+        }
+
+        ul li {
+          text-align: left;
+        }
+          
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <!-- Header -->
+        <div class="header">
+          Welcome
+        </div>
+
+        <!-- Details section -->
+        <div class="details">
+          <div class="col-1">
+            <ul>
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul> 
+          </div>
+          <div class="col-2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis vitae, laborum voluptas omnis tempora illum aut cumque impedit odit quos dolores, sit vero esse quidem similique aliquam deleniti! Voluptatibus, placeat?
+          </div>
+          <div class="col-3">
+            <img src="https://adespresso.com/wp-content/uploads/2021/09/free-trial-planet-2-med_non-fb.jpg" alt="Start Your Free Trial Now" class="adv" />
+          </div>
+        </div>
+
+        <!-- Footer section -->
+        <div class="footer">
+          <img src="./images/twitter.svg" alt="Twitter" class="image" />
+          <img src="./images/github.svg" alt="GitHub" class="image" />
+          <img src="./images/youtube.svg" alt="Youtube" class="image" />
+          <img src="./images/instagram.svg" alt="Instagram" class="image" />
+          <img src="./images/facebook.svg" alt="facebook" class="image" />
+          <img src="./images/linkedin.svg" alt="LinkedIn" class="image" />          
+        </div> 
+      </div>      
+    </body>
+</html>

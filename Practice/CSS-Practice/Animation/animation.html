@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <style>
+          body {
+            height: 600px;
+          }
+          .aa {
+            margin: 100px;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: blueviolet;
+            animation-name: sample;
+            animation-duration: 5s;
+            animation-delay: 0s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+            animation-play-state: running;
+          }
+          @keyframes sample {
+            /* from {
+              left: 0;
+              top: 0%;
+            }
+            to {
+              left: 50%;
+              background-color: blue;
+            } */
+            0% {
+              left: 0;
+              top: 0%;
+            }
+            25% {
+              left: 50%;
+              background-color: yellow;
+            }
+            50% {
+              top: 50%;
+              left: 50%;
+              background-color: orange;
+            }
+            100% {
+              top: 50%;
+              left: 0;
+              background-color: red;
+            }
+          }
+        </style>
+    </head>
+    <body>
+      <div class="aa"></div>
+    </body>
+</html>

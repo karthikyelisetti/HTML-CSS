@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+tr {
+    margin: auto;
+}
