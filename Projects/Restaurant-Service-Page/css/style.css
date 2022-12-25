@@ -9,5 +9,15 @@
 
 .banner-img {
   width: 100%;
-  height: 540px;
+  height: 450px;
+  background-image: url('../images/breakfast-bg.jpg');
+  opacity: 0.84;
+}
+
+.text-msg {
+  position: absolute;
+  margin: 90px 540px;
+  font-size: 33px;
+  line-height: 75px;
+  font-family:'Arial Narrow Bold', sans-serif;
 }
