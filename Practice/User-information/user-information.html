@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>USER INFORMATION</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>    
+    <h1>USER INFORMATION</h1>
+    <form>
+        <table style="width: 30%">
+            <thead>
+                <tr>
+                    <td><b>User Information</b></td>
+                    <td><b>User Details</b></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>First Name</td><td><input type="text" id="firstname" style="width: 90%"></td></tr>
+                <tr><td>Last name</td><td><input type="text" id="lastname" style="width: 90%"></td></tr>
+                <tr><td>Address</td><td><input type="text" id="address" style="width: 90%"></td></tr> 
+                <tr><td>Email ID</td><td><input type="email" id="emailId" style="width: 90%"></td></tr>
+                <tr><td>Date of Birth</td><td><input type="date" id="dob" style="width: 50%" ></td></tr>
+                <tr><td><button type="button" onclick="processData()">Submit</button></td></tr>
+            </tbody>
+            
+        </table>
+    </form>
+    <br />
+    <svg height="300" width="270">
+        <circle cx="150" cy="150" r="50" stroke="gray" 
+           stroke-width="2" fill="white" />
+    </svg>
+    <svg height="300" width="300">
+        <circle cx="150" cy="150" r="50" stroke="green" 
+           stroke-width="2" fill="white" />
+    </svg>
+    <br />
+    <audio controls     autoplay>
+        <source src="audio/trumpet-fanfare-2293.wav" type="audio/wav" />
+    </audio>
+    <video controls loop autoplay>
+        <source src="video/SampleVideo.mp4" type="video/mp4" />            
+    </video>
+    
+    <script>
+        console.log(localStorage);
+        document.getElementById("firstname").value = localStorage.getItem("firstname");
+        document.getElementById("lastname").value = localStorage.getItem("lastname");
+        document.getElementById("dob").value = localStorage.getItem("dob");
+        function processData(){
+            var fname = document.getElementById("firstname").value;
+            var lname = document.getElementById("lastname").value;
+            var dob = document.getElementById("dob").value;
+
+            localStorage.setItem("firstname", fname);
+            localStorage.setItem("lastname", lname);
+            localStorage.setItem("dob", dob);
+        }
+    </script>
+</body>
+</html>

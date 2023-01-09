@@ -1,0 +1,36 @@
+#para-1 {
+    background-color: fuchsia;
+    padding: 5px;
+}
+#para-2 {
+    border: 2px solid black;
+    padding: 0.5em;
+    color: navy;
+    font-size: 20px;
+}
+#para-3 {
+    border: 2px dotted black;
+    padding: 0.5em;
+    color: navy;
+    font-size: 20px;
+}
+#para-4 {
+    border: 2px dashed black;
+    padding: 0.5em;
+    color: navy;
+    font-size: 20px;
+}
+table, th, td{
+    border: 1px solid green;
+    text-align: center;
+}
+table {
+    width: 50%;
+}
+th {
+    background-color: darkgrey;
+}
+img {
+    width: 50%;
+    padding: 100px 300px;
+}

@@ -1,0 +1,57 @@
+.blue {
+    color: blue;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#intro-para {
+    border: 3px dashed;
+    padding: 10px;
+    height: 60px;
+}
+
+pre {
+    font-family: inherit;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
+    font-size: 2em;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+div {
+    float: left;
+}
+
+.side-bar {
+    width: 15%;
+}
+
+.main-content {
+    width: 85%;
+}
+
+.side-bar > a {
+    display: block;
+    color: darkgrey
+}
+
+iframe {
+    width:100%;
+    height: 500px;
+}
